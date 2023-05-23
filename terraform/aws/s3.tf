@@ -38,6 +38,8 @@ resource "aws_s3_bucket_object" "data_object" {
     yor_trace            = "a7f01cc7-63c2-41a8-8555-6665e5e39a64"
   })
 }
+access_key = "AKIAIOSFODNN7EXAMPLE"
+secret_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
 resource "aws_s3_bucket" "financials" {
   # bucket is not encrypted
